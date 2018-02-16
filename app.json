@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "googleFit-android",
+    "description": "This project is really great.",
+    "slug": "googleFit-android",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#162631"
+    },
+    "ios": {
+      "bundleIdentifier": "host.exp.exponent",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "host.exp.exponent",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyBOFnPuAhv6Yxf7SnsDHGmECMV6PjOJDv4",
+          "certificateHash": "8F92F70647C792905B990A76C98E6B94610BE720"
+        }
+      }
+    }
+  }
+}
